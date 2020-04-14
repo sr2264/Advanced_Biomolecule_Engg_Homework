@@ -21,7 +21,7 @@ function build_data_dictionary()
     v5r_max = (13.7)*(3600)*(E) # v5r 2.0*Nitric_oxide + 2.0*L-Citrulline + 3.0*NADP + 4.0*H2O --> 2.0*L-Arginine + 4.0*Oxygen + 3.0*NADPH + 3.0*H (Units: 1/hr)
 
     cell_mass = 2.3E-9 #cell mass of HeLa cell obtained from bionumber (Unit: g)
-    cell_volume = 2.45*E-6 #cell volume of HeLa cell obtained from bionumber (Unit: m3)
+    cell_volume = 2.45E-6 #cell volume of HeLa cell obtained from bionumber (Unit: m3)
     water = 0.7 #ratio of water in Hela cell obtained from bionumber in percentage (70%)
     cell_dry_mass = (1-water)*cell_mass
     cell_dry_weight = cell_volume/cell_dry_mass
