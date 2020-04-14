@@ -50,9 +50,9 @@ function build_data_dictionary()
     Km_arginine_v3 = 1.55E-3*cell_dry_weight #metabolite concentration of arginine for v3
     Km_ornithine = 1.6E-3*cell_dry_weight #metabolite concentration of Ornithine (Saccharomyces cerevisiae)
     Km_ATP = 3.92E-4*cell_dry_weight #metabolite concentration of ATP (Mus musculus)
-    Km_AMP = 0 #not available
-    Km_NADPH = 0 #not available
-    Km_NADP = 0 #not available
+    Km_AMP = 0 #metabolite concentration of AMP not available
+    Km_NADPH = 0 #metabolite concentration of NADPH not available
+    Km_NADP = 0 #metabolite concentration of NADP not available
     Km_carbomyl_phosphate = 0 #metabolite concentration of carbomyl_phosphate is not available
     Km_citruniline = 0 #metabolite concentration of citruniline is not available
     Km_arginosuccinate = 0 #metabolite concentration of arginosuccinate is not available
