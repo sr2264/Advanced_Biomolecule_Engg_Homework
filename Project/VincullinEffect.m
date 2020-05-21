@@ -121,7 +121,7 @@ for j=1:length(stiffness)
     
     
 end
-plot(events,F_t);
+
 figure;
 subplot(1,2,1)
 semilogx(stiffness,avg_retro)
